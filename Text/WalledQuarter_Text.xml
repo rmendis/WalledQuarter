@@ -9,7 +9,7 @@
 			<Text>Walled Quarter</Text>
 		</Row>
 		<Row Tag="LOC_DISTRICT_WALLED_QUARTER_DESCRIPTION">
-			<Text>15% chance to avoid plague deaths each turn.</Text>
+			<Text>A defensible district</Text>
 		</Row>
 	</EnglishText>
 </GameData>
