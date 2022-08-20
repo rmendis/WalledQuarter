@@ -4,7 +4,7 @@
 		<Row Type="DISTRICT_WALLED_QUARTER" Kind="KIND_DISTRICT"/>
 	</Types>
 	<Districts>
-		<Row DistrictType="DISTRICT_WALLED_QUARTER" Cost="80" Name="LOC_DISTRICT_WALLED_QUARTER_NAME" Description="LOC_DISTRICT_WALLED_QUARTER_DESCRIPTION" PrereqTech="TECH_CASTLES" PlunderType="NO_PLUNDER" AdvisorType="ADVISOR_CONQUEST" HitPoints="100" RequiresPlacement="true" RequiresPopulation="false" OnePerCity="true" Aqueduct="false" NoAdjacentCity="false" InternalOnly="false" ZOC="true" CaptureRemovesBuildings="true" CaptureRemovesCityDefenses="false" MilitaryDomain="DOMAIN_LAND" Housing="4" CityStrengthModifier="4"/>
+		<Row DistrictType="DISTRICT_WALLED_QUARTER" Cost="80" Name="LOC_DISTRICT_WALLED_QUARTER_NAME" Description="LOC_DISTRICT_WALLED_QUARTER_DESCRIPTION" PrereqTech="TECH_CASTLES" PlunderType="NO_PLUNDER" AdvisorType="ADVISOR_CONQUEST" HitPoints="100" RequiresPlacement="true" RequiresPopulation="false" OnePerCity="true" Aqueduct="false" NoAdjacentCity="true" InternalOnly="false" ZOC="true" CaptureRemovesBuildings="true" CaptureRemovesCityDefenses="false" MilitaryDomain="DOMAIN_LAND" Housing="4" CityStrengthModifier="4"/>
 	</Districts>
 	<District_CitizenYieldChanges>
 		<Row DistrictType="DISTRICT_WALLED_QUARTER" YieldType="YIELD_CULTURE" YieldChange="2"/>

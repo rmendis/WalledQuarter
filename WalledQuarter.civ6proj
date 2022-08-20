@@ -21,7 +21,7 @@
   <Dependency type="Dlc" title="Scenario: The Black Death" id="C1F775D8-59B5-401B-B86D-78FAF3446EC7" />
   <Dependency type="Dlc" title="Expansion: Gathering Storm" id="4873eb62-8ccc-4574-b784-dda455e74e68" />
 </Associations>]]></AssociationData>
-    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="AddWalledQuarter"><Properties><LoadOrder>100</LoadOrder></Properties><File>XML/WalledQuarter.xml</File></UpdateDatabase><UpdateArt id="AddArt"><Include mod_id="C1F775D8-59B5-401B-B86D-78FAF3446EC7" action_id="BlackDeathScenarioArt" /></UpdateArt><UpdateText id="AddText"><File>Text/WalledQuarter_Text.xml</File></UpdateText></InGameActions>]]></InGameActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="AddWalledQuarter"><Properties><LoadOrder>100</LoadOrder></Properties><File>XML/WalledQuarter.xml</File><File>XML/Hospital.xml</File></UpdateDatabase><UpdateArt id="AddArt"><Include mod_id="C1F775D8-59B5-401B-B86D-78FAF3446EC7" action_id="BlackDeathScenarioArt" /></UpdateArt><UpdateText id="AddText"><File>Text/WalledQuarter_Text.xml</File></UpdateText></InGameActions>]]></InGameActionData>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
     <OutputPath>.</OutputPath>
@@ -32,6 +32,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Text\WalledQuarter_Text.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XML\Hospital.xml">
       <SubType>Content</SubType>
     </Content>
     <Content Include="XML\WalledQuarter.xml">

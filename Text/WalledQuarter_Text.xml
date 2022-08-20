@@ -11,5 +11,11 @@
 		<Row Tag="LOC_DISTRICT_WALLED_QUARTER_DESCRIPTION">
 			<Text>A defensible district</Text>
 		</Row>
+		<Row Tag="LOC_BUILDING_PLAGUE_HOSPITAL_NAME">
+			<Text>Hospital</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PLAGUE_HOSPITAL_DESCRIPTION">
+			<Text>+20% Growth in city to rebound from disasters.</Text>
+		</Row>
 	</EnglishText>
 </GameData>

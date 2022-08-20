@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Hospital -->
+<!-- Author: blkbutterfly74 -->
+<!-- DateCreated: 8/20/2022 9:11:46 PM -->
+<GameInfo>
+	<Types>
+		<Row Type="BUILDING_PLAGUE_HOSPITAL" Kind="KIND_BUILDING"/>
+	</Types>
+	<Buildings>
+		<Row BuildingType="BUILDING_PLAGUE_HOSPITAL" Cost="195" Name="LOC_BUILDING_PLAGUE_HOSPITAL_NAME" Description="LOC_BUILDING_PLAGUE_HOSPITAL_DESCRIPTION" PrereqDistrict="DISTRICT_WALLED_QUARTER" PrereqTech="TECH_EDUCATION" PurchaseYield="YIELD_GOLD" AdvisorType="ADVISOR_GENERIC" Maintenance="2" CitizenSlots="1"/>
+	</Buildings>
+	<Building_YieldChanges>
+		<Row BuildingType="BUILDING_PLAGUE_HOSPITAL" YieldType="YIELD_SCIENCE" YieldChange="4"/>
+	</Building_YieldChanges>
+	<BuildingModifiers>
+		<!--Adjust City Growth-->
+		<Row>
+			<BuildingType>BUILDING_PLAGUE_HOSPITAL</BuildingType>
+			<ModifierId>PLAGUE_HOSPITAL_ADDGROWTH</ModifierId>
+		</Row>
+	</BuildingModifiers>
+	<Modifiers>
+		<!--Adjust City Growth-->
+		<Row>
+			<ModifierId>PLAGUE_HOSPITAL_ADDGROWTH</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_CITY_GROWTH</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<!--Adjust City Growth-->
+		<Row>
+			<ModifierId>PLAGUE_HOSPITAL_ADDGROWTH</ModifierId>
+			<Name>Amount</Name>
+			<Value>20</Value>
+		</Row>
+	</ModifierArguments>
+</GameInfo>
