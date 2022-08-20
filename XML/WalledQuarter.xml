@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<GameInfo>
+	<Types>
+		<Row Type="DISTRICT_WALLED_QUARTER" Kind="KIND_DISTRICT"/>
+	</Types>
+	<Districts>
+		<Row DistrictType="DISTRICT_WALLED_QUARTER" Cost="80" Name="LOC_DISTRICT_WALLED_QUARTER_NAME" Description="LOC_DISTRICT_WALLED_QUARTER_DESCRIPTION" PrereqTech="TECH_CASTLES" PlunderType="PLUNDER_GOLD" PlunderAmount="50" AdvisorType="ADVISOR_GENERIC" RequiresPlacement="true" RequiresPopulation="false" OnePerCity="true" Aqueduct="false" NoAdjacentCity="false" InternalOnly="false" ZOC="true" CaptureRemovesBuildings="false" CaptureRemovesCityDefenses="false" MilitaryDomain="NO_DOMAIN" Housing="4" CityStrengthModifier="4"/>
+	</Districts>
+	<District_CitizenYieldChanges>
+		<Row DistrictType="DISTRICT_WALLED_QUARTER" YieldType="YIELD_CULTURE" YieldChange="2"/>
+	</District_CitizenYieldChanges>
+	<District_Adjacencies>
+		<Row DistrictType="DISTRICT_WALLED_QUARTER" YieldChangeId="District_Culture_Theater"/>
+		<Row DistrictType="DISTRICT_WALLED_QUARTER" YieldChangeId="District_Gold_CommercialHub"/>
+		<Row DistrictType="DISTRICT_WALLED_QUARTER" YieldChangeId="District_Faith_HolySite"/>
+		<Row DistrictType="DISTRICT_WALLED_QUARTER" YieldChangeId="District_Science_Campus"/>
+	</District_Adjacencies>
+	<Adjacency_YieldChanges>
+		<Row ID="District_Culture_Theater" Description="LOC_DISTRICT_CULTURE_THEATER" YieldType="YIELD_CULTURE" YieldChange="1" TilesRequired="1" AdjacentDistrict="DISTRICT_THEATER"/>
+		<Row ID="District_Gold_CommercialHub" Description="LOC_DISTRICT_GOLD_COMMERCIAL_HUB" YieldType="YIELD_GOLD" YieldChange="1" TilesRequired="1" AdjacentDistrict="DISTRICT_COMMERCIAL_HUB"/>
+		<Row ID="District_Faith_HolySite" Description="LOC_DISTRICT_FAITH_HOLY_SITE" YieldType="YIELD_FAITH" YieldChange="1" TilesRequired="1" AdjacentDistrict="DISTRICT_HOLY_SITE"/>
+		<Row ID="District_Science_Campus" Description="LOC_DISTRICT_SCIENCE_CAMPUS" YieldType="YIELD_SCIENCE" YieldChange="1" TilesRequired="1" AdjacentDistrict="DISTRICT_CAMPUS"/>
+	</Adjacency_YieldChanges>
+</GameInfo>

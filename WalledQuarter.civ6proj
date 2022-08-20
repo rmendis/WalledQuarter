@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <Name>Walled Quarter</Name>
+    <Guid>468f9027-7220-4b0c-8602-209501b3cf34</Guid>
+    <ProjectGuid>0ab9260e-7afb-4c17-a3fc-98c824e5e12d</ProjectGuid>
+    <ModVersion>1</ModVersion>
+    <Teaser>Adds the Walled Quarter from Black Death</Teaser>
+    <Description>Adds the Walled Quarter from the Black Death scenario.</Description>
+    <Authors>blkbutterfly74</Authors>
+    <SpecialThanks>Firaxis</SpecialThanks>
+    <AffectsSavedGames>true</AffectsSavedGames>
+    <SupportsSinglePlayer>true</SupportsSinglePlayer>
+    <SupportsMultiplayer>true</SupportsMultiplayer>
+    <SupportsHotSeat>true</SupportsHotSeat>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+    <AssemblyName>WalledQuarter</AssemblyName>
+    <RootNamespace>WalledQuarter</RootNamespace>
+    <AssociationData><![CDATA[<Associations>
+  <Dependency type="Dlc" title="Scenario: The Black Death" id="C1F775D8-59B5-401B-B86D-78FAF3446EC7" />
+  <Dependency type="Dlc" title="Expansion: Gathering Storm" id="4873eb62-8ccc-4574-b784-dda455e74e68" />
+</Associations>]]></AssociationData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="AddWalledQuarter"><Properties><LoadOrder>100</LoadOrder></Properties><File>XML/WalledQuarter.xml</File></UpdateDatabase><UpdateArt id="AddArt"><Include mod_id="C1F775D8-59B5-401B-B86D-78FAF3446EC7" action_id="BlackDeathScenarioArt" /></UpdateArt><UpdateText id="AddText"><File>Text/WalledQuarter_Text.xml</File></UpdateText></InGameActions>]]></InGameActionData>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="Text" />
+    <Folder Include="XML" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Text\WalledQuarter_Text.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XML\WalledQuarter.xml">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)Civ6.targets" />
+</Project>

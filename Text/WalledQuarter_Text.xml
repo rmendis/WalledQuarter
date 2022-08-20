@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- WalledQuarter_Text -->
+<!-- Author: blkbutterfly74 -->
+<!-- DateCreated: 8/20/2022 4:42:56 PM -->
+<GameData>
+		<EnglishText>
+		<!-- Districts -->
+		<Row Tag="LOC_DISTRICT_WALLED_QUARTER_NAME">
+			<Text>Walled Quarter</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_WALLED_QUARTER_DESCRIPTION">
+			<Text>15% chance to avoid plague deaths each turn.</Text>
+		</Row>
+	</EnglishText>
+</GameData>
