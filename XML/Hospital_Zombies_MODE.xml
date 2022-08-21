@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Hospital_Zombies_MODE -->
+<!-- Author: blkbutterfly74 -->
+<!-- DateCreated: 8/21/2022 5:22:59 PM -->
+<GameInfo>
+	<BuildingModifiers>
+		<!--Adjust Spy Operation-->
+		<Row>
+			<BuildingType>BUILDING_PLAGUE_HOSPITAL</BuildingType>
+			<ModifierId>ZOMBIE_OUTBREAK_DEFENSE</ModifierId>
+		</Row>
+	</BuildingModifiers>
+	<Modifiers>
+		<!--Adjust Spy Operation-->
+		<Row>
+			<ModifierId>ZOMBIE_OUTBREAK_DEFENSE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_SPY_BONUS</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<!--Adjust Spy Operation-->
+		<Row>
+			<ModifierId>ZOMBIE_OUTBREAK_DEFENSE</ModifierId>
+			<Name>Offense</Name>
+			<Value>false</Value>
+		</Row>
+		<Row>
+			<ModifierId>ZOMBIE_OUTBREAK_DEFENSE</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>ZOMBIE_OUTBREAK_DEFENSE</ModifierId>
+			<Name>OperationType</Name>
+			<Value>UNITOPERATION_SPY_ZOMBIFY</Value>
+		</Row>
+	</ModifierArguments>
+</GameInfo>
