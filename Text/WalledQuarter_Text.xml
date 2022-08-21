@@ -15,7 +15,7 @@
 			<Text>Hospital</Text>
 		</Row>
 		<Row Tag="LOC_BUILDING_PLAGUE_HOSPITAL_DESCRIPTION">
-			<Text>+20% Growth in city to rebound from disasters.</Text>
+			<Text>+20% Growth in city to rebound from disasters.[NEWLINE]Zombie Outbreak spy missions are less effective.</Text>
 		</Row>
 	</EnglishText>
 </GameData>
