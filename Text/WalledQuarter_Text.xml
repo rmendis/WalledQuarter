@@ -3,7 +3,7 @@
 <!-- Author: blkbutterfly74 -->
 <!-- DateCreated: 8/20/2022 4:42:56 PM -->
 <GameData>
-		<EnglishText>
+	<EnglishText>
 		<!-- Districts -->
 		<Row Tag="LOC_DISTRICT_WALLED_QUARTER_NAME">
 			<Text>Walled Quarter</Text>
@@ -16,6 +16,18 @@
 		</Row>
 		<Row Tag="LOC_BUILDING_PLAGUE_HOSPITAL_DESCRIPTION">
 			<Text>+20% Growth in city to rebound from disasters.[NEWLINE]Zombie Outbreak spy missions are less effective.</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_THEATER_CULTURE">
+			<Text>+{1_num} [ICON_Culture] Culture from the adjacent Theater district.</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_COMMERCIAL_GOLD">
+			<Text>+{1_num} [ICON_Gold] Gold from the adjacent Commercial Hub district.</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_HOLY_SITE_FAITH">
+			<Text>+{1_num} [ICON_Faith] Faith from the adjacent Holy Site district.</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_CAMPUS_SCIENCE">
+			<Text>+{1_num} [ICON_Science] Science from the adjacent Campus district.</Text>
 		</Row>
 	</EnglishText>
 </GameData>
