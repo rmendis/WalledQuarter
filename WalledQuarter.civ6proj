@@ -20,6 +20,7 @@
     <AssociationData><![CDATA[<Associations>
   <Dependency type="Dlc" title="Scenario: The Black Death" id="C1F775D8-59B5-401B-B86D-78FAF3446EC7" />
   <Dependency type="Dlc" title="Expansion: Gathering Storm" id="4873eb62-8ccc-4574-b784-dda455e74e68" />
+  <Reference type="Mod" title="Portugal PAck" id="FFDF4E79-DEE2-47BB-919B-F5739106627A" />
 </Associations>]]></AssociationData>
     <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="AddWalledQuarter"><Properties><LoadOrder>100</LoadOrder></Properties><File>XML/WalledQuarter.xml</File><File>XML/Hospital.xml</File></UpdateDatabase><UpdateArt id="AddArt"><Include mod_id="C1F775D8-59B5-401B-B86D-78FAF3446EC7" action_id="BlackDeathScenarioArt" /></UpdateArt><UpdateText id="AddText"><File>Text/WalledQuarter_Text.xml</File></UpdateText><UpdateDatabase id="UpdateHospitalZombiesMode"><Properties><LoadOrder>100</LoadOrder></Properties><Criteria>ZombiesMode</Criteria><File>XML/Hospital_Zombies_MODE.xml</File></UpdateDatabase></InGameActions>]]></InGameActionData>
     <ActionCriteriaData><![CDATA[<ActionCriteria><Criteria id="ZombiesMode"><ConfigurationValueMatches><Group>Game</Group><ConfigurationId>GAMEMODE_TOWERDEFENSE</ConfigurationId><Value>1</Value></ConfigurationValueMatches></Criteria></ActionCriteria>]]></ActionCriteriaData>
