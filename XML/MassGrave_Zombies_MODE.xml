@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- MassGrave_Zombies_MODE -->
+<!-- Author: blkbutterfly74 -->
+<!-- DateCreated: 8/22/2022 5:26:48 PM -->
+<GameInfo>
+	<Types>
+		<Row Type="BUILDING_MASS_GRAVE" Kind="KIND_BUILDING"/>
+
+		<!-- new project for levying zombies  -->
+		<Row Type="PROJECT_CONVERT_ZOMBIES_MILITARY" Kind="KIND_PROJECT"/>
+	</Types>
+	
+	<Buildings>
+		<Row BuildingType="BUILDING_MASS_GRAVE" Cost="65" Name="LOC_BUILDING_MASS_GRAVE_NAME" Description="LOC_BUILDING_MASS_GRAVE_DESCRIPTION" PrereqDistrict="DISTRICT_WALLED_QUARTER" PrereqTech="TECH_CIVIL_ENGINEERING" PurchaseYield="YIELD_GOLD" AdvisorType="ADVISOR_GENERIC" CitizenSlots="1"/>
+	</Buildings>
+
+	<Projects>
+		<Row ProjectType="PROJECT_CONVERT_ZOMBIES_MILITARY" Name="LOC_PROJECT_CONVERT_ZOMBIES_MILITARY_NAME" ShortName="LOC_PROJECT_CONVERT_ZOMBIES_MILITARY_NAME" Description="LOC_PROJECT_CONVERT_ZOMBIES_MILITARY_DESCRIPTION" PrereqDistrict="DISTRICT_WALLED_QUARTER" Cost="35" AdvisorType="ADVISOR_GENERIC" CostProgressionModel="COST_PROGRESSION_GAME_PROGRESS" CostProgressionParam1="1500" RequiredBuilding="BUILDING_MASS_GRAVE" />
+	</Projects>
+	<ProjectCompletionModifiers>
+		<Row ProjectType="PROJECT_CONVERT_ZOMBIES_MILITARY" ModifierId="PROJECT_COMPLETION_ZOMBIES_EXTRA_LONG"/>
+	</ProjectCompletionModifiers>
+
+	<Modifiers>
+		<Row>
+			<ModifierId>PROJECT_COMPLETION_ZOMBIES_EXTRA_LONG</ModifierId>
+			<ModifierType>MODIFIER_CITY_LEVY_UNITS</ModifierType>
+		</Row>
+	</Modifiers>
+
+	<ModifierArguments>
+		<Row>
+			<ModifierId>PROJECT_COMPLETION_ZOMBIES_EXTRA_LONG</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_MODE_ZOMBIE</Value>
+		</Row>
+		<Row>
+			<ModifierId>PROJECT_COMPLETION_ZOMBIES_EXTRA_LONG</ModifierId>
+			<Name>Duration</Name>
+			<Value>45</Value>
+		</Row>
+	</ModifierArguments>
+</GameInfo>
