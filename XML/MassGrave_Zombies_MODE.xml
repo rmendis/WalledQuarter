@@ -11,7 +11,7 @@
 	</Types>
 	
 	<Buildings>
-		<Row BuildingType="BUILDING_MASS_GRAVE" Cost="65" Name="LOC_BUILDING_MASS_GRAVE_NAME" Description="LOC_BUILDING_MASS_GRAVE_DESCRIPTION" PrereqDistrict="DISTRICT_WALLED_QUARTER" PrereqTech="TECH_CIVIL_ENGINEERING" PurchaseYield="YIELD_GOLD" AdvisorType="ADVISOR_GENERIC" CitizenSlots="1"/>
+		<Row BuildingType="BUILDING_MASS_GRAVE" Cost="65" Name="LOC_BUILDING_MASS_GRAVE_NAME" Description="LOC_BUILDING_MASS_GRAVE_DESCRIPTION" PrereqDistrict="DISTRICT_WALLED_QUARTER" PrereqCivic="CIVIC_CIVIL_ENGINEERING" PurchaseYield="YIELD_GOLD" AdvisorType="ADVISOR_GENERIC" CitizenSlots="1"/>
 	</Buildings>
 
 	<Projects>
