@@ -37,12 +37,12 @@
 			<Text>Mass Grave</Text>
 		</Row>
 		<Row Tag="LOC_BUILDING_MASS_GRAVE_DESCRIPTION">
-			<Text>Allows the special project Raise the Undead to levy zombies.</Text>
+			<Text>Allows the special project Turn Undead II to levy zombies.</Text>
 		</Row>
 		
 		<!-- proecjt -->
 		<Row Tag="LOC_PROJECT_CONVERT_ZOMBIES_MILITARY_NAME">
-			<Text>Raise the Undead</Text>
+			<Text>Turn Undead II</Text>
 		</Row>
 		<Row Tag="LOC_PROJECT_CONVERT_ZOMBIES_MILITARY_DESCRIPTION">
 			<Text>Upon completion, gain control of the zombies currently in this city's territory.  Control lasts 45 turns.</Text>
