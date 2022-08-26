@@ -21,4 +21,57 @@
 		<Row ID="District_Faith_HolySite" Description="LOC_DISTRICT_FAITH_HOLY_SITE" YieldType="YIELD_FAITH" YieldChange="1" TilesRequired="1" AdjacentDistrict="DISTRICT_HOLY_SITE"/>
 		<Row ID="District_Science_Campus" Description="LOC_DISTRICT_SCIENCE_CAMPUS" YieldType="YIELD_SCIENCE" YieldChange="1" TilesRequired="1" AdjacentDistrict="DISTRICT_CAMPUS"/>
 	</Adjacency_YieldChanges>
+	
+	<!--tourism-->
+	<CivicModifiers>
+		<Row>
+			<CivicType>CIVIC_CONSERVATION</CivicType>
+			<ModifierId>CONSERVATION_WALLED_QUARTER_TOURISM</ModifierId>
+		</Row>
+	</CivicModifiers>
+
+	<Modifiers>
+		<Row>
+			<ModifierId>CONSERVATION_WALLED_QUARTER_TOURISM</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_TOURISM_CHANGE</ModifierType>
+			<SubjectRequirementSetId>DISTRICT_IS_WALLED_QUARTER</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	
+	<ModifierArguments>
+		<Row>
+			<ModifierId>CONSERVATION_WALLED_QUARTER_TOURISM</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+	</ModifierArguments>
+
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>DISTRICT_IS_WALLED_QUARTER</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>DISTRICT_IS_WALLED_QUARTER</RequirementSetId>
+			<RequirementId>REQUIRES_DISTRICT_IS_WALLED_QUARTER</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+
+	<Requirements>
+		<Row>
+			<RequirementId>REQUIRES_DISTRICT_IS_WALLED_QUARTER</RequirementId>
+			<RequirementType>REQUIREMENT_DISTRICT_TYPE_MATCHES</RequirementType>
+		</Row>
+	</Requirements>
+
+	<RequirementArguments>
+		<Row>
+			<RequirementId>REQUIRES_DISTRICT_IS_WALLED_QUARTER</RequirementId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_WALLED_QUARTER</Value>
+		</Row>
+	</RequirementArguments>
 </GameInfo>
