@@ -45,7 +45,7 @@
 			<Text>Keep</Text>
 		</Row>
 		<Row Tag="LOC_BUILDING_KEEP_DESCRIPTION">
-			<Text>Provies a line of defense for the Walled Quarter.[NEWLINE]Tourism from culture with flight.</Text>
+			<Text>Provies a line of defense for the Walled Quarter. +2 culture and +2 faith. [NEWLINE]Tourism from culture with flight.</Text>
 		</Row>
 
 		<!-- proecjt -->
