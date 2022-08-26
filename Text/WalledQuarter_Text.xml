@@ -39,7 +39,15 @@
 		<Row Tag="LOC_BUILDING_MASS_GRAVE_DESCRIPTION">
 			<Text>Allows the special project Turn Undead II to levy zombies.</Text>
 		</Row>
-		
+
+		<!--keep -->
+		<Row Tag="LOC_BUILDING_KEEP_NAME">
+			<Text>Keep</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_KEEP_DESCRIPTION">
+			<Text>Provies a line of defense for the Walled Quarter.[NEWLINE]Tourism from culture with flight.</Text>
+		</Row>
+
 		<!-- proecjt -->
 		<Row Tag="LOC_PROJECT_CONVERT_ZOMBIES_MILITARY_NAME">
 			<Text>Turn Undead II</Text>
@@ -47,5 +55,6 @@
 		<Row Tag="LOC_PROJECT_CONVERT_ZOMBIES_MILITARY_DESCRIPTION">
 			<Text>Upon completion, gain control of the zombies currently in this city's territory.  Control lasts 45 turns.</Text>
 		</Row>
+		
 	</EnglishText>
 </GameData>

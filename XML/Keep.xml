@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Keep -->
+<!-- Author: blkbutterfly74 -->
+<!-- DateCreated: 8/26/2022 3:22:15 PM -->
+<GameInfo>
+	<Types>
+		<Row Type="BUILDING_KEEP" Kind="KIND_BUILDING"/>
+	</Types>
+	<Buildings>
+		<Row BuildingType="BUILDING_KEEP" Cost="220" Name="LOC_BUILDING_KEEP_NAME" Description="LOC_BUILDING_KEEP_DESCRIPTION" PrereqTech="TECH_SIEGE_TACTICS" PrereqDistrict="DISTRICT_WALLED_QUARTER" PurchaseYield="YIELD_GOLD" AdvisorType="ADVISOR_GENERIC" Maintenance="2" Housing="1" OuterDefenseStrength="3" />
+	</Buildings>
+	<Building_YieldChanges>
+		<Row BuildingType="BUILDING_KEEP" YieldType="YIELD_FAITH" YieldChange="2"/>
+		<Row BuildingType="BUILDING_KEEP" YieldType="YIELD_CULTURE" YieldChange="2"/>
+	</Building_YieldChanges>
+</GameInfo>
