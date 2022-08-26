@@ -9,7 +9,7 @@
 			<Text>Walled Quarter</Text>
 		</Row>
 		<Row Tag="LOC_DISTRICT_WALLED_QUARTER_DESCRIPTION">
-			<Text>A defensible district</Text>
+			<Text>A defensible district.[NEWLINE]+3[ICON_Tourism] Tourism with Conservation.</Text>
 		</Row>
 		<Row Tag="LOC_DISTRICT_THEATER_CULTURE">
 			<Text>+{1_num} [ICON_Culture] Culture from the adjacent Theater district.</Text>
@@ -29,7 +29,7 @@
 			<Text>Hospital</Text>
 		</Row>
 		<Row Tag="LOC_BUILDING_PLAGUE_HOSPITAL_DESCRIPTION">
-			<Text>+20% Growth in city to rebound from disasters.[NEWLINE]Also provides relief from minor disasters.[NEWLINE]Zombie Outbreak spy missions are less effective.</Text>
+			<Text>+20% Growth in city to rebound from disasters.[NEWLINE]Also provides immunity from minor disasters.[NEWLINE]In Zombie Defense mode Zombie Outbreak spy missions are less effective.</Text>
 		</Row>
 		
 		<!-- mass grave -->
@@ -45,7 +45,7 @@
 			<Text>Keep</Text>
 		</Row>
 		<Row Tag="LOC_BUILDING_KEEP_DESCRIPTION">
-			<Text>Provies a line of defense for the Walled Quarter. +2 culture and +2 faith. [NEWLINE]Tourism from culture with flight.</Text>
+			<Text>Provies a line of defense for the Walled Quarter.</Text>
 		</Row>
 
 		<!-- proecjt -->
