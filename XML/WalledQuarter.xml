@@ -21,4 +21,47 @@
 		<Row ID="District_Faith_HolySite" Description="LOC_DISTRICT_FAITH_HOLY_SITE" YieldType="YIELD_FAITH" YieldChange="1" TilesRequired="1" AdjacentDistrict="DISTRICT_HOLY_SITE"/>
 		<Row ID="District_Science_Campus" Description="LOC_DISTRICT_SCIENCE_CAMPUS" YieldType="YIELD_SCIENCE" YieldChange="1" TilesRequired="1" AdjacentDistrict="DISTRICT_CAMPUS"/>
 	</Adjacency_YieldChanges>
+	
+	<!--tourism-->
+	<DistrictModifiers>
+		<Row>
+			<DistrictType>DISTRICT_WALLED_QUARTER</DistrictType>
+			<ModifierId>WALLED_QUARTER_TOURISM_CULTURE</ModifierId>
+		</Row>
+	</DistrictModifiers>
+
+	<Modifiers>
+		<Row>
+			<ModifierId>WALLED_QUARTER_TOURISM_CULTURE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICT_ADJUST_TOURISM_ADJACENCY_YIELD_MOFIFIER</ModifierType>
+			<SubjectRequirementSetId>WALLED_QUARTER_PLAYER_HAS_FLIGHT_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+
+	<ModifierArguments>
+		<Row>
+			<ModifierId>WALLED_QUARTER_TOURISM_CULTURE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>WALLED_QUARTER_TOURISM_CULTURE</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+	</ModifierArguments>
+
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>WALLED_QUARTER_PLAYER_HAS_FLIGHT_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>WALLED_QUARTER_PLAYER_HAS_FLIGHT_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLAYER_HAS_FLIGHT</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
 </GameInfo>
