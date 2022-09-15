@@ -16,6 +16,7 @@
 			<ArtDefDependencyPaths>
 				<Element text="Landmarks.artdef"/>
 				<Element text="Buildings.artdef"/>
+				<Element text="StrategicView.artdef"/>										  
 				<Element text="Districts.artdef"/>
 			</ArtDefDependencyPaths>
 			<LibraryDependencies>
@@ -30,6 +31,7 @@
 				<Element text="Districts.artdef"/>
 				<Element text="Buildings.artdef"/>
 				<Element text="Landmarks.artdef"/>
+				<Element text="StrategicView.artdef"/>										  
 			</ArtDefDependencyPaths>
 			<LibraryDependencies/>
 			<LoadsLibraries>true</LoadsLibraries>
@@ -37,6 +39,7 @@
 		<Element>
 			<ConsumerName text="StrategicView_Sprite"/>
 			<ArtDefDependencyPaths>
+				<Element text="StrategicView.artdef"/>									  
 				<Element text="Buildings.artdef"/>
 				<Element text="Districts.artdef"/>
 				<Element text="Landmarks.artdef"/>
@@ -60,18 +63,22 @@
 			<ArtDefPath text="Districts.artdef"/>
 			<ArtDefDependencyPaths>
 				<Element text="Landmarks.artdef"/>
+				<Element text="StrategicView.artdef"/>										  
 				<Element text="Districts.artdef"/>
 			</ArtDefDependencyPaths>
 		</Element>
 		<Element>
 			<ArtDefPath text="Buildings.artdef"/>
 			<ArtDefDependencyPaths>
+				<Element text="StrategicView.artdef"/>
 				<Element text="Buildings.artdef"/>
 				<Element text="Districts.artdef"/>
 			</ArtDefDependencyPaths>
 		</Element>
 		<Element>
+			<ArtDefPath text="StrategicView.artdef"/>		
 			<ArtDefDependencyPaths>
+				<Element text="StrategicView.artdef"/>
 				<Element text="Buildings.artdef"/>
 			</ArtDefDependencyPaths>
 		</Element>

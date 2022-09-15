@@ -50,6 +50,9 @@
     <Content Include="ArtDefs\Landmarks.artdef">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="ArtDefs\StrategicView.artdef">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Platforms\Windows\BLPs\Districts.blp">
       <SubType>Content</SubType>
     </Content>
