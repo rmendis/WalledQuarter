@@ -35,6 +35,7 @@
     <Folder Include="Platforms\Windows\" />
     <Folder Include="Platforms\Windows\BLPs\" />
     <Folder Include="Platforms\Windows\BLPs\landmarks\" />
+    <Folder Include="Platforms\Windows\BLPs\SHARED_DATA" />
     <Folder Include="Platforms\Windows\BLPs\strategicview\" />
     <Folder Include="Platforms\Windows\BLPs\UI\" />
     <Folder Include="Text" />
@@ -63,6 +64,21 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Platforms\Windows\BLPs\landmarks\tilebases.blp">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\BLPs\SHARED_DATA\TEXTURE_DIS_Wal_Base_A">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\BLPs\SHARED_DATA\TEXTURE_DIS_Wal_Base_E">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\BLPs\SHARED_DATA\TEXTURE_DIS_Wal_Base_G">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\BLPs\SHARED_DATA\TEXTURE_DIS_Wal_Base_N0">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\BLPs\SHARED_DATA\TEXTURE_DIS_Wal_Base_N1">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Platforms\Windows\BLPs\strategicview\strategicview_buildings.blp">
